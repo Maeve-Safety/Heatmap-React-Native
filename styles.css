@@ -78,6 +78,7 @@ header h1 {
     padding: 1rem;
     overflow-y: auto;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
 }
 
 .section {
@@ -125,7 +126,7 @@ input[type="checkbox"] {
 
 /* District and subdistrict lists */
 .districts-list, .subdistricts-list {
-    max-height: 300px;
+    /* max-height: 300px; */
     overflow-y: auto;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -247,8 +248,8 @@ input[type="checkbox"] {
 #data-panel {
     padding: 1.5rem;
     overflow-y: auto;
-    height: 50%;
-    top: 50%;
+    /* height: 50%; */
+    /* top: 50%; */
 }
 
 #data-content {
@@ -374,6 +375,7 @@ input[type="checkbox"] {
     line-height: 1.5;
     font-size: 13px;
     padding: 10px;
+    margin-bottom: 150px !important;
 }
 
 .map-legend .legend-title {
@@ -393,6 +395,10 @@ input[type="checkbox"] {
     float: left;
     margin-right: 8px;
     opacity: 0.7;
+}
+
+.leaflet-top {
+    margin-top: 120px
 }
 
 /* error notification */
