@@ -387,7 +387,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     margin: 3px 0;
-}
+} 
 
 .map-legend i {
     width: 18px;
